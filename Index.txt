@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    @import url(https://www.youtube.com/watch?v=nToxpky7rLA) 
+    @import url(https://www.youtube.com/watch?v=J6lfHTEwjDI)
+    @import url(https://www.youtube.com/watch?v=TUZb45qYEjY)
+    *{
+     box-sizing: border-box;
+    }
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+header{
+background-color: #666666;
+padding: 30px;text-align: center;
+font-size: 35px;
+color: white;
+}
+nav{
+    float: left
+    width 30%;
+    height: 300px;
+    background: #ccc;
+    padding: 20px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+article{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1
+    height: 300px;;
+ }
+
+section:after{
+    content: "";
+    display:table;
+    clear: both;
+}
+footer{
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+  <header> 
+ <h1>Juegos de pelea</h1>
+ </header>
+ <section>
+  <nav>
+      <ul>
+      <li>King of Fighters</li>
+      <li>Guilty Gear</li>
+      <li>Street Fighter</li>
+      </ul>
+  </nav>  
+  <!--
+  <article>
+      <h1>KoF 2002 UM</h1>
+      <P>Es una de las entregas mas completas de todas con unos 50 personajes,combate rapido y una gran cantidad de contenido</P> 
+  </article>
+   -->
+  <article>
+      <h1>KoF XI</h1>
+      <p>A pesar de la menor cantidad de personajes,el juego introdujo personajes nuevos y una mecanicas que habrian camino a combos que tenian a tus personajes entrando y saliendo de batalla</p>     
+  </article>
+  <article>
+      <h1>Guilty Gear Accent Core +R</h1>
+      <p>Tras multples entregas cada una mejorando problemas</p>
+  </article>
+ </section>
+ <footer>
+     <p>Copyright Idrissa 2022</p>
+ </footer>
+ </body>
+</html>
